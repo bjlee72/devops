@@ -21,4 +21,4 @@ qemu-system-x86_64 -m 1G -smp 4 -accel tcg -hda linux_hd.qcow2 -boot d -net user
 ssh bjlee72@localhost -p 2222
 ```
 
-물론 여기서 bjlee72는 여러분 자신의 계정 이름으로 바꿔야 합니다 설마 그것도 모른다고 하진 않겠지 만일 그렇다면 당신은 잘못된 직업을 택한 것이다 
+물론 여기서 bjlee72는 여러분 자신의 계정 이름으로 바꿔야 합니다 설마 그것도 모른다고 하진 않겠지 만일 그렇다면 당신은 잘못된 직업을 택한 것입니다  
