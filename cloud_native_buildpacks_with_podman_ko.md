@@ -181,3 +181,11 @@ docker.io/paketobuildpacks/builder-jammy-base  latest      07a12e865f08  44 year
 docker.io/library/nodejs-app                   latest      e325aac437d9  44 years ago  303 MB
 ```
 
+# 감상평
+
+결국 이번 가이드는 도커 엔진을 맥 위의 가상머신에 돌려주는 데스크탑 플랫폼으로서 포드맨을 사용한 후기 쯤 되겠습니다.
+
+사실 이것 말고도 비슷한 도구들이 많은데... 이것저것 깔아보고 돌려보니 저는 [랜처 데스크탑](https://docs.rancherdesktop.io/getting-started/installation/)(Rancher desktop) 쪽이 좀 더 나은 것 같습니다. 설치 과정에서 할 일도 별로 없고요.
+도커 CLI까지 한번에 전부 다 깔아주니까 사실 설정 관련해서는 거의 피곤하지 않습니다.
+
+반면 쿠버네티스 관련 기능을 쓸 필요가 없고 UI까지 진짜 있어야 하느냐... 하는 분들은 [콜리마](https://github.com/abiosoft/colima)(Colima)를 써서 엔진만 띄우는 방법도 좋을 것 같습니다.
