@@ -24,6 +24,7 @@ Podman을 설치한 적이 없으므로 설치하라고 나옵니다. 두 개를
 <img width="793" alt="Screenshot 2024-01-22 at 9 08 27 PM" src="https://github.com/bjlee72/devops/assets/4746751/3b6f7c54-ab60-473b-ab84-ca54609edb2a">
 
 우리에게 친숙한 맥 설치 화면이 떠서 Podman 설치 과정을 안내할 것입니다. 그 상태에서 뭘 어찌해야 할 지 모르겠다면 당신에게는 맥이 어울리지 않는 것입니다.
+아무튼 닥치고 다 설치하고 나면 다음과 같은 화면을 보게 됩니다. 포드맨을 초기화하고 시작하라는군요. 
 
 <img width="798" alt="Screenshot 2024-01-22 at 9 10 41 PM" src="https://github.com/bjlee72/devops/assets/4746751/217d2534-7c9d-4a30-a5b7-f041c36e1f9e">
 
