@@ -33,3 +33,12 @@ sudo \rm -Rf /usr/local/Cellar/py* (파이썬 관련 디렉터리밖에 없는�
 
 # tensorflow2 설치
 
+일단 위의 tensorflow2 디렉터리에서 다음을 실행한다.
+
+```
+# Requires the latest pip
+python -m pip install --upgrade pip
+
+# Current stable release for CPU and GPU
+python -m pip install tensorflow
+```
