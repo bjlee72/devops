@@ -42,3 +42,16 @@ python -m pip install --upgrade pip
 # Current stable release for CPU and GPU
 python -m pip install tensorflow
 ```
+
+다음과 같이 정상 설치를 확인해 보자.
+
+```
+❯ python -c "import tensorflow as tf; x = [[2.]]; print('tensorflow version', tf.__version__); print('hello, {}'.format(tf.matmul(x, x)))"
+```
+
+다음과 같은 결과가 나오면 된다.
+
+```
+tensorflow version 2.15.0
+hello, [[4.]]
+```
