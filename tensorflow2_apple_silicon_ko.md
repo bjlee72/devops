@@ -19,7 +19,7 @@ pyenv local 3.11.7
 # 홈브루 인텔 버전 파일은 /usr/local 밑에 깔림
 sudo \rm -Rf /usr/local/bin/brew
 sudo \rm -Rf /usr/local/Homebrew
-sudo \rm -Rf /usr/local/Cellar/py* (파이썬 관련 디렉터리밖에 없는지 Cellar 디렉터리 내용을 다시 한번 확인할 것)
+sudo \rm -Rf /usr/local/Cellar/py* (py로 시작하는 디렉터리는 오직 파이썬 관련 디렉터리 뿐인지 지우기 전에 다시 한번 확인할 것)
 ```
 
 이렇게 밀어버린 다음에 brew를 다시 설치하고 위의 pyenv 설치 절차를 다시 따르면 된다.
