@@ -16,6 +16,7 @@ pyenv local 3.11.7
 그런 일이 벌어지면 일단 다음의 디렉터리를 전부 밀어버린 다음 brew의 설치 관리자를 (*.pkg) 다운받아서 처음부터 다시 설치해 볼 것을 권장한다.
 
 ```
+# 홈브루 인텔 버전 파일은 /usr/local 밑에 깔림
 sudo \rm -Rf /usr/local/bin/brew
 sudo \rm -Rf /usr/local/Homebrew
 sudo \rm -Rf /usr/local/Cellar/py* (파이썬 관련 디렉터리밖에 없는지 Cellar 디렉터리 내용을 다시 한번 확인할 것)
