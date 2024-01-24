@@ -21,5 +21,15 @@ sudo \rm -Rf /usr/local/Homebrew
 sudo \rm -Rf /usr/local/Cellar/py* (파이썬 관련 디렉터리밖에 없는지 Cellar 디렉터리 내용을 다시 한번 확인할 것)
 ```
 
+이렇게 밀어버린 다음에 brew를 다시 설치하고 위의 pyenv 설치 절차를 다시 따르면 된다.
+유의할 것은 일단 brew를 다시 설치하고 나면 brew의 위치가 바뀌어 있을 수 있기 때문에
+다음의 위치가 PATH에 있는지 확인할 필요가 있다는 것이다.
+
+```
+/opt/homebrew/bin
+```
+
+만일 없다면 PATH에 추가해 주도록 하자. 그래야 brew CLI를 불편함 없이 쓸 수 있다. 어떻게 해야 할지 모르겠디만 당신은 직업을 잘 못 고른 것이다.
+
 # tensorflow2 설치
 
