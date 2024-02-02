@@ -3,7 +3,7 @@
 We still need to have a Rosetta environment for the legacy Python development where some dependency of your project doesn't have Apple Silicon ports.
 This has required a complicated setup where different packages support different architectures (arm64 and x86_64) coexist in one laptop.
 
-but NOT many people have been successful because Rosetta environments were messing up the native brew installation with the x86 packages. 
+But NOT many people have been successful because Rosetta environments were messing up the native brew installation with the x86 packages. 
 We need to find a way to isolate the legacy environment from the native environment.
 
 For this purpose, many directions have been investigated including running a Linux VM on top of the Docker Desktop Rosetta Emulation support. 
