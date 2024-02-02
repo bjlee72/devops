@@ -4,7 +4,7 @@ We still need to have a Rosetta environment for the legacy Python development wh
 This has required a complicated setup where different packages support different architectures (arm64 and x86_64) coexist in one laptop.
 
 but NOT many people have been successful because Rosetta environments were messing up the native brew installation with the x86 packages. 
-e need to find a way to isolate the legacy environment from the native environment, thus to better support new architecture, but also to keep on supporting our legacy efficiently.
+We need to find a way to isolate the legacy environment from the native environment.
 
 For this purpose, many directions have been investigated including running a Linux VM on top of the Docker Desktop Rosetta Emulation support. 
 Such directions based on emulation have not been successful for some cases because not all of the HW instructions that the Compiled Linux distributions rely on are supported by the underlying emulation layer. 
